@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Добро пожаловать в Steam{% endblock %}</title>
+</head>
+<body>
+    <header>
+        {% block pagename %}
+        <h1 align="center">Steam</h1>
+        {% endblock %}
+    </header>
+
+    <nav>
+        {% block menu %}
+        <table align="center">
+        <tr>
+            <td><a href="/">Главная</a></td>
+            <td><a href="/steam_home/steam_store/">Магазин</a></td>
+            <td><a href="/steam_home/steam_cart/">Корзина</a></td>
+        </tr>
+        </table>
+        {% endblock %}
+    </nav>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+</body>
+</html>

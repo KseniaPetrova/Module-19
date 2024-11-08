@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d956155-0806-4aa7-a141-6dd5e5604b29" name="Changes" comment="homework">
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/task1/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Module-19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Module-19.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/task1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,36 +25,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KseniaPetrova"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KseniaPetrova&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KseniaPetrova/Module-19.git",
-    "accountId": "799e143c-814f-4982-903f-64bcbd34bb52"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KseniaPetrova/Module-19.git&quot;,
+    &quot;accountId&quot;: &quot;799e143c-814f-4982-903f-64bcbd34bb52&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oZxxCfmENk3wfyCeU6fEaW0pKL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Admin/PycharmProjects/Module-19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/PycharmProjects/Module-19/UrbanDjango/templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\Module-19\UrbanDjango\templates" />
+      <recent name="C:\Users\Admin\PycharmProjects\Module-19\UrbanDjango\task1" />
       <recent name="C:\Users\Admin\PycharmProjects\Module-19" />
     </key>
   </component>
@@ -97,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731092999030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework">
+      <option name="closed" value="true" />
+      <created>1731099407182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731099407182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
