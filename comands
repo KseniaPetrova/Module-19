@@ -1,3 +1,5 @@
+установить джанго pip Install django
+
 создать базовую структуру файлов и каталогов django-admin startproject **название**
 
 создать таблицы в базе данных для всех приложений из списка INSTALLED_APPS.
@@ -6,7 +8,7 @@ python manage.py migrate
 
 создание приложения
 cd UrbanDjango
-python manage.py startapp task5
+python manage.py startapp task1
 
 запуск сервера
 cd UrbanDjango
