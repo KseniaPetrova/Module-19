@@ -1,0 +1,20 @@
+создать базовую структуру файлов и каталогов django-admin startproject **название**
+
+создать таблицы в базе данных для всех приложений из списка INSTALLED_APPS.
+cd UrbanDjango
+python manage.py migrate
+
+создание приложения
+cd UrbanDjango
+python manage.py startapp task5
+
+запуск сервера
+cd UrbanDjango
+python manage.py runserver
+
+cd UrbanDjango
+создание приложения python manage.py startapp appDjango
+создание бд python manage.py migrate
+
+добавлять в бд свои модели python manage.py makemigrations после должна быть команда python manage.py migrate
+
