@@ -1,0 +1,27 @@
+python manage.py shell
+from task1.models import Buyer, Game
+Buyer.objects.create(name='Anthon', balance=5000, age=27)
+Buyer.objects.create(name='Kiril', balance=1000, age=40)
+Buyer.objects.create(name='Lesha', balance=500, age=10)
+Game.objects.create(title='Grand Theft Auto V', cost=50, size=100.68, description='text1', age_limited=True)
+Game.objects.create(title='Space Engineers', cost=10, size=90, description='text2', age_limited=False)
+Game.objects.create(title="Baldur's Gate 3", cost=20.18, size=30.11, description='text3', age_limited=True)
+
+buyer_Anthon = Buyer.objects.get(name='Anthon')
+buyer_Kiril = Buyer.objects.get(name='Kiril')
+buyer_Lesha = Buyer.objects.get(name='Lesha')
+
+
+Game.objects.get(id=1).buyer.set((buyer_Anthon, buyer_Kiril, buyer_Lesha))
+Game.objects.get(id=2).buyer.set((buyer_Anthon, buyer_Lesha))
+Game.objects.get(id=3).buyer.set((buyer_Anthon, buyer_Kiril))
+
+
+
+
+
+
+
+
+
+
