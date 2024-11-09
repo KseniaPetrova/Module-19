@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d956155-0806-4aa7-a141-6dd5e5604b29" name="Changes" comment="homework">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/task1/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/registration_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Module-19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Module-19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/task1/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="4d956155-0806-4aa7-a141-6dd5e5604b29" name="Changes" comment="homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
