@@ -23,7 +23,12 @@ class Game(models.Model):
         return self.title
 
 
+#-----------------ПЛГИНАЦИЯ----------------------
 
+class Post(models.Model):
+    title = models.CharField(max_length=255, verbose_name="Заголовок")
+    content = models.TextField(verbose_name="Содержание")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
 
 
 

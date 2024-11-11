@@ -1,0 +1,38 @@
+.pagination-container {
+    margin: 20px 0; /* Вертикальные отступы */
+}
+
+.pagination-table {
+    border-collapse: collapse; /* Убирает двойные линии между ячейками */
+    margin: 0 auto; /* Центрирование таблицы */
+}
+
+.pagination-table td {
+    padding: 10px; /* Внутренние отступы ячеек */
+}
+
+.page-link {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: #007bff; /* Цвет текста для ссылок */
+    padding: 5px 10px; /* Внутренние отступы для ссылок */
+    border: 1px solid #ccc; /* Граница вокруг ссылок */
+    border-radius: 4px; /* Скругление углов */
+}
+
+.page-link:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+
+.active {
+    font-weight: bold; /* Подсветка активной страницы */
+    color: #fff; /* Цвет текста активной страницы */
+    background-color: #007bff; /* Цвет фона активной страницы */
+    padding: 5px 10px; /* Внутренние отступы для активной страницы */
+    border-radius: 4px; /* Скругление углов для активной страницы */
+}
+
+.disabled {
+    color: #6c757d; /* Цвет текста для заблокированных элементов */
+    padding: 5px 10px; /* Внутренние отступы для заблокированных элементов */
+    border-radius: 4px; /* Скругление углов для заблокированных элементов */
+}

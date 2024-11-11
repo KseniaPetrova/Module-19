@@ -1,0 +1,82 @@
+{% extends "menu.html" %}
+{% load static %}
+{% block title %}{{ block.super }}{% endblock %}
+
+{% block pagename %}
+    {{ block.super }}
+    <h3 align="center">Форум</h3>
+{% endblock %}
+
+<p></p>
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+{% block content %}
+<link rel = 'stylesheet' type="text/css" href = '{% static "style.css" %}'>
+<div class="row" align="center">
+{% for post in page_obj %}
+    <div class="col-md-4">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        <p>{{ post.created_at }}</p>
+    </div>
+{% endfor %}
+</div>
+
+         {% if page_obj.has_other_pages %} <!--Если существуют другие страницы и есть возможность их создать-->
+<div class="pagination-container" align="center">
+  <nav aria-label="Page navigation" > <!--Отрисовывается меню -->
+      <table class="pagination">
+          {% if page_obj.has_previous %}
+          <tr>
+            <td class="page-item">
+                <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previo"> <!--Формируется ссылка следующей страницы -->
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </td>
+          {% else %}<!-- В противном случае ничего не будет -->
+            <td class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </td>
+          {% endif %}
+
+          {% for i in page_obj.paginator.page_range %}
+            {% if page_obj.number == i %}<!-- Если мы находимся на странице 2, то ссылка 2 страницы не генерируется в списке пагинатора -->
+              <td class="page-item activa" aria-current="page">
+                  <a class="page-link" href="#">{{ i }}</a>
+              </td>
+            {% else %}
+              <td class="page-item">
+                  <a class="page-link" href="?page={{ i }}">{{ i }}</a>
+              </td>
+            {% endif %}
+          {% endfor %}
+
+          {% if page_obj.has_next %}
+            <td class="page-item">
+                <a class="page-link" href="?page={{ page_obj.next_page_number }}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </td>
+          {% endif %}
+          </tr>
+      </table>
+  </nav>
+</div>
+{% endif %}
+<div class="pagination-container" align="center">
+    <label for="items-per-page">Показать:</label>
+    <form method="GET" action="">
+        <select name="items_per_page" id="items-per-page" onchange="this.form.submit()">
+            <option value="3" {% if items_per_page == 3 %}selected{% endif %}>3</option>
+            <option value="5" {% if items_per_page == 5 %}selected{% endif %}>5</option>
+            <option value="10" {% if items_per_page == 10 %}selected{% endif %}>10</option>
+        </select>
+        <input type="hidden" name="page" value="{{ page_obj.number }}"> <!-- Скрытое поле для сохранения текущей страницы -->
+    </form>
+</div>
+{% endblock %}
+

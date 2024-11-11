@@ -16,12 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from task1.views import webpage_homepage, webpage_store, webpage_cart, sign_up_by_django
+from task1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', webpage_homepage),
     path('steam_home/steam_store/', webpage_store),
     path('steam_home/steam_cart/', webpage_cart),
+    path('steam_home/steam_forum/', postForum),
     path('django_sign_up/', sign_up_by_django),
 ]

@@ -20,3 +20,5 @@ cd UrbanDjango
 
 добавлять в бд свои модели python manage.py makemigrations после должна быть команда python manage.py migrate
 
+создание админа только после миграции
+python manage.py createsuperuser
